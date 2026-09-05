@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "locale": "en",
+  "selectors": {
+    "promptInput": { "css": "div[contenteditable=\"true\"][translate=\"no\"]", "nth": 0 },
+    "submitButton": { "css": "button[aria-label=\"Start generation\"]" },
+    "stopButton": { "css": "button[aria-label=\"Stop\"]" },
+    "settingsButton": { "css": "button[aria-label=\"Settings\"]" },
+    "saveButton": { "css": "button", "text": "Save" },
+    "backButton": { "css": "button[aria-label=\"Back\"]" },
+    "videoModelButton": { "css": "button[aria-label=\"Video generation default model\"]" },
+    "imageModelButton": { "css": "button[aria-label=\"Image generation default model\"]" },
+    "tileAnchor": { "css": "button[aria-label=\"Reuse prompt\"]" },
+    "tileMoreButton": { "css": "button[aria-label=\"More options\"]" },
+    "menuDownload": { "css": "button[role=\"menuitem\"]", "text": "Download" },
+    "downloadRes": {
+      "1K": { "css": "button[role=\"menuitem\"]", "text": "1K" },
+      "2K": { "css": "button[role=\"menuitem\"]", "text": "2K" },
+      "4K": { "css": "button[role=\"menuitem\"]", "text": "4K" }
+    },
+    "aspectRatio": {
+      "16:9": { "css": "button[role=\"radio\"]", "text": "16:9" },
+      "9:16": { "css": "button[role=\"radio\"]", "text": "9:16" },
+      "1:1": { "css": "button[role=\"radio\"]", "text": "1:1" },
+      "4:3": { "css": "button[role=\"radio\"]", "text": "4:3" },
+      "3:4": { "css": "button[role=\"radio\"]", "text": "3:4" }
+    },
+    "outputCount": {
+      "1": { "css": "button[role=\"radio\"]", "text": "x1" },
+      "2": { "css": "button[role=\"radio\"]", "text": "x2" },
+      "3": { "css": "button[role=\"radio\"]", "text": "x3" },
+      "4": { "css": "button[role=\"radio\"]", "text": "x4" }
+    }
+  }
+}
