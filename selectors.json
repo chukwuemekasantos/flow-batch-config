@@ -1,5 +1,5 @@
 {
-  "version": "7",
+  "version": "8",
   "locale": "en",
   "selectors": {
     "promptInput":      { "css": "div[contenteditable=\"true\"][translate=\"no\"]", "nth": 0 },
@@ -12,6 +12,8 @@
     "characterTab":     { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Characters", "icon": "accessibility_new" },
     "voiceTab":         { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Voices",     "icon": "voice_selection" },
     "imageTab":         { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Images",     "icon": "image" },
+    "uploadTab":        { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Uploads",    "icon": "drive_folder_upload" },
+    "uploadMedia":      { "css": "button", "text": "Upload media", "icon": "upload" },
     "assetSearch":      { "css": "input[placeholder=\"Search assets\"]" },
     "assetItem":        { "css": "button.asset-item[role=\"option\"]" },
     "addToPrompt":      { "css": "button", "text": "Add to prompt" },
