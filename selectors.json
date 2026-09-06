@@ -1,18 +1,23 @@
 {
-  "version": "1",
+  "version": "3",
   "locale": "en",
   "selectors": {
-    "promptInput": { "css": "div[contenteditable=\"true\"][translate=\"no\"]", "nth": 0 },
-    "submitButton": { "css": "button[aria-label=\"Start generation\"]" },
-    "stopButton": { "css": "button[aria-label=\"Stop\"]" },
-    "settingsButton": { "css": "button[aria-label=\"Settings\"]" },
-    "saveButton": { "css": "button", "text": "Save" },
-    "backButton": { "css": "button[aria-label=\"Back\"]" },
-    "videoModelButton": { "css": "button[aria-label=\"Video generation default model\"]" },
-    "imageModelButton": { "css": "button[aria-label=\"Image generation default model\"]" },
-    "tileAnchor": { "css": "button[aria-label=\"Reuse prompt\"]" },
-    "tileMoreButton": { "css": "button[aria-label=\"More options\"]" },
-    "menuDownload": { "css": "button[role=\"menuitem\"]", "text": "Download" },
+    "promptInput":      { "css": "div[contenteditable=\"true\"][translate=\"no\"]", "nth": 0 },
+    "submitButton":     { "css": "button[aria-label=\"Start generation\"]" },
+    "stopButton":       { "css": "button[aria-label=\"Stop\"]" },
+    "settingsButton":   { "css": "button[aria-label=\"Settings trigger\"]" },
+    "videoModeToggle":  { "css": "button[role=\"radio\"]", "text": "Video" },
+    "imageModeToggle":  { "css": "button[role=\"radio\"]", "text": "Image" },
+    "addIngredients":   { "css": "button[aria-label=\"Add ingredients to the prompt box\"]" },
+    "characterTab":     { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Characters" },
+    "assetSearch":      { "css": "input[placeholder=\"Search assets\"]" },
+    "assetItem":        { "css": "button.asset-item[role=\"option\"]" },
+    "addToPrompt":      { "css": "button", "text": "Add to prompt" },
+    "ingredientChip":   { "css": "button[aria-label=\"Ingredient\"]" },
+    "clearPrompt":      { "css": "button[aria-label=\"Clear prompt\"]" },
+    "tileAnchor":       { "css": "button[aria-label=\"Reuse prompt\"]" },
+    "tileMoreButton":   { "css": "button[aria-label=\"More options\"]" },
+    "menuDownload":     { "css": "button[aria-label=\"Download media\"]" },
     "downloadRes": {
       "1K": { "css": "button[role=\"menuitem\"]", "text": "1K" },
       "2K": { "css": "button[role=\"menuitem\"]", "text": "2K" },
@@ -21,9 +26,9 @@
     "aspectRatio": {
       "16:9": { "css": "button[role=\"radio\"]", "text": "16:9" },
       "9:16": { "css": "button[role=\"radio\"]", "text": "9:16" },
-      "1:1": { "css": "button[role=\"radio\"]", "text": "1:1" },
-      "4:3": { "css": "button[role=\"radio\"]", "text": "4:3" },
-      "3:4": { "css": "button[role=\"radio\"]", "text": "3:4" }
+      "1:1":  { "css": "button[role=\"radio\"]", "text": "1:1" },
+      "4:3":  { "css": "button[role=\"radio\"]", "text": "4:3" },
+      "3:4":  { "css": "button[role=\"radio\"]", "text": "3:4" }
     },
     "outputCount": {
       "1": { "css": "button[role=\"radio\"]", "text": "x1" },
