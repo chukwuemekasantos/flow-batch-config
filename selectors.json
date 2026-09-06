@@ -1,5 +1,5 @@
 {
-  "version": "3",
+  "version": "4",
   "locale": "en",
   "selectors": {
     "promptInput":      { "css": "div[contenteditable=\"true\"][translate=\"no\"]", "nth": 0 },
@@ -10,6 +10,7 @@
     "imageModeToggle":  { "css": "button[role=\"radio\"]", "text": "Image" },
     "addIngredients":   { "css": "button[aria-label=\"Add ingredients to the prompt box\"]" },
     "characterTab":     { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Characters" },
+    "voiceTab":         { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Voices" },
     "assetSearch":      { "css": "input[placeholder=\"Search assets\"]" },
     "assetItem":        { "css": "button.asset-item[role=\"option\"]" },
     "addToPrompt":      { "css": "button", "text": "Add to prompt" },
