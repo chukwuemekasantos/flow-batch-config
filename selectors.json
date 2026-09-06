@@ -1,5 +1,5 @@
 {
-  "version": "6",
+  "version": "7",
   "locale": "en",
   "selectors": {
     "promptInput":      { "css": "div[contenteditable=\"true\"][translate=\"no\"]", "nth": 0 },
@@ -12,7 +12,7 @@
     "characterTab":     { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Characters", "icon": "accessibility_new" },
     "voiceTab":         { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Voices",     "icon": "voice_selection" },
     "imageTab":         { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Images",     "icon": "image" },
-    "assetSearch":      { "css": "input[placeholder=\"Search assets\"], input.search-input" },
+    "assetSearch":      { "css": "input[placeholder=\"Search assets\"]" },
     "assetItem":        { "css": "button.asset-item[role=\"option\"]" },
     "addToPrompt":      { "css": "button", "text": "Add to prompt" },
     "ingredientChip":   { "css": "button[aria-label=\"Ingredient\"]" },
