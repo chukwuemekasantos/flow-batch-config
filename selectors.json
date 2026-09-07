@@ -1,5 +1,5 @@
 {
-  "version": "11",
+  "version": "12",
   "locale": "en",
   "selectors": {
     "promptInput": {
@@ -167,6 +167,16 @@
     },
     "modelButton": {
       "css": "button[aria-label=\"Select model family\"]"
+    },
+    "framesModeToggle": {
+      "css": "button[role=\"radio\"]",
+      "text": "Frames",
+      "icon": "crop_free"
+    },
+    "ingredientsModeToggle": {
+      "css": "button[role=\"radio\"]",
+      "text": "Ingredients",
+      "icon": "chrome_extension"
     }
   }
 }
