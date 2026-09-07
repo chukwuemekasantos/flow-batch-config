@@ -1,44 +1,172 @@
 {
-  "version": "8",
+  "version": "11",
   "locale": "en",
   "selectors": {
-    "promptInput":      { "css": "div[contenteditable=\"true\"][translate=\"no\"]", "nth": 0 },
-    "submitButton":     { "css": "button[aria-label=\"Start generation\"]" },
-    "stopButton":       { "css": "button[aria-label=\"Stop\"]" },
-    "settingsButton":   { "css": "button[aria-label=\"Settings trigger\"]" },
-    "videoModeToggle":  { "css": "button[role=\"radio\"]", "text": "Video",      "icon": "videocam" },
-    "imageModeToggle":  { "css": "button[role=\"radio\"]", "text": "Image",      "icon": "image" },
-    "addIngredients":   { "css": "button[aria-label=\"Add ingredients to the prompt box\"]" },
-    "characterTab":     { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Characters", "icon": "accessibility_new" },
-    "voiceTab":         { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Voices",     "icon": "voice_selection" },
-    "imageTab":         { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Images",     "icon": "image" },
-    "uploadTab":        { "css": "button, mat-list-item, [role=\"tab\"]", "text": "Uploads",    "icon": "drive_folder_upload" },
-    "uploadMedia":      { "css": "button", "text": "Upload media", "icon": "upload" },
-    "assetSearch":      { "css": "input[placeholder=\"Search assets\"]" },
-    "assetItem":        { "css": "button.asset-item[role=\"option\"]" },
-    "addToPrompt":      { "css": "button", "text": "Add to prompt" },
-    "ingredientChip":   { "css": "button[aria-label=\"Ingredient\"]" },
-    "clearPrompt":      { "css": "button[aria-label=\"Clear prompt\"]" },
-    "tileAnchor":       { "css": "button[aria-label=\"Reuse prompt\"]" },
-    "tileMoreButton":   { "css": "button[aria-label=\"More options\"]" },
-    "menuDownload":     { "css": "button[aria-label=\"Download media\"]" },
+    "promptInput": {
+      "css": "div[contenteditable=\"true\"][translate=\"no\"]",
+      "nth": 0
+    },
+    "submitButton": {
+      "css": "button[aria-label=\"Start generation\"]"
+    },
+    "stopButton": {
+      "css": "button[aria-label=\"Stop\"]"
+    },
+    "settingsButton": {
+      "css": "button[aria-label=\"Settings trigger\"]"
+    },
+    "videoModeToggle": {
+      "css": "button[role=\"radio\"]",
+      "text": "Video",
+      "icon": "videocam"
+    },
+    "imageModeToggle": {
+      "css": "button[role=\"radio\"]",
+      "text": "Image",
+      "icon": "image"
+    },
+    "addIngredients": {
+      "css": "button[aria-label=\"Add ingredients to the prompt box\"]"
+    },
+    "characterTab": {
+      "css": "button:not(.asset-item), mat-list-item, [role=\"tab\"]",
+      "text": "Characters",
+      "icon": "accessibility_new"
+    },
+    "voiceTab": {
+      "css": "button:not(.asset-item), mat-list-item, [role=\"tab\"]",
+      "text": "Voices",
+      "icon": "voice_selection"
+    },
+    "imageTab": {
+      "css": "button:not(.asset-item), mat-list-item, [role=\"tab\"]",
+      "text": "Images",
+      "icon": "image"
+    },
+    "uploadTab": {
+      "css": "button:not(.asset-item), mat-list-item, [role=\"tab\"]",
+      "text": "Uploads",
+      "icon": "drive_folder_upload"
+    },
+    "uploadMedia": {
+      "css": "button",
+      "text": "Upload media",
+      "icon": "upload"
+    },
+    "assetSearch": {
+      "css": "input[placeholder=\"Search assets\"]"
+    },
+    "assetItem": {
+      "css": "button.asset-item[role=\"option\"]"
+    },
+    "addToPrompt": {
+      "css": "button",
+      "text": "Add to prompt"
+    },
+    "ingredientChip": {
+      "css": "button[aria-label=\"Ingredient\"]"
+    },
+    "clearPrompt": {
+      "css": "button[aria-label=\"Clear prompt\"]"
+    },
+    "tileAnchor": {
+      "css": "button[aria-label=\"Reuse prompt\"]"
+    },
+    "tileMoreButton": {
+      "css": "button[aria-label=\"More options\"]"
+    },
+    "menuDownload": {
+      "css": "button[aria-label=\"Download media\"]"
+    },
     "downloadRes": {
-      "1K": { "css": "button[role=\"menuitem\"]", "text": "1K" },
-      "2K": { "css": "button[role=\"menuitem\"]", "text": "2K" },
-      "4K": { "css": "button[role=\"menuitem\"]", "text": "4K" }
+      "1K": {
+        "css": "button[role=\"menuitem\"]",
+        "text": "1K"
+      },
+      "2K": {
+        "css": "button[role=\"menuitem\"]",
+        "text": "2K"
+      },
+      "4K": {
+        "css": "button[role=\"menuitem\"]",
+        "text": "4K"
+      }
+    },
+    "duration": {
+      "4": {
+        "css": "button[role=\"radio\"]",
+        "text": "4s"
+      },
+      "6": {
+        "css": "button[role=\"radio\"]",
+        "text": "6s"
+      },
+      "8": {
+        "css": "button[role=\"radio\"]",
+        "text": "8s"
+      },
+      "10": {
+        "css": "button[role=\"radio\"]",
+        "text": "10s"
+      }
     },
     "aspectRatio": {
-      "16:9": { "css": "button[role=\"radio\"]", "text": "16:9" },
-      "9:16": { "css": "button[role=\"radio\"]", "text": "9:16" },
-      "1:1":  { "css": "button[role=\"radio\"]", "text": "1:1" },
-      "4:3":  { "css": "button[role=\"radio\"]", "text": "4:3" },
-      "3:4":  { "css": "button[role=\"radio\"]", "text": "3:4" }
+      "16:9": {
+        "css": "button[role=\"radio\"]",
+        "text": "16:9",
+        "icon": "crop_16_9"
+      },
+      "9:16": {
+        "css": "button[role=\"radio\"]",
+        "text": "9:16",
+        "icon": "crop_9_16"
+      },
+      "1:1": {
+        "css": "button[role=\"radio\"]",
+        "text": "1:1",
+        "icon": "crop_square"
+      },
+      "4:3": {
+        "css": "button[role=\"radio\"]",
+        "text": "4:3",
+        "icon": "crop_landscape"
+      },
+      "3:4": {
+        "css": "button[role=\"radio\"]",
+        "text": "3:4",
+        "icon": "crop_portrait"
+      }
     },
     "outputCount": {
-      "1": { "css": "button[role=\"radio\"]", "text": "x1" },
-      "2": { "css": "button[role=\"radio\"]", "text": "x2" },
-      "3": { "css": "button[role=\"radio\"]", "text": "x3" },
-      "4": { "css": "button[role=\"radio\"]", "text": "x4" }
+      "1": {
+        "css": "button[role=\"radio\"]",
+        "text": "x1"
+      },
+      "2": {
+        "css": "button[role=\"radio\"]",
+        "text": "x2"
+      },
+      "3": {
+        "css": "button[role=\"radio\"]",
+        "text": "x3"
+      },
+      "4": {
+        "css": "button[role=\"radio\"]",
+        "text": "x4"
+      }
+    },
+    "resolution": {
+      "360p": {
+        "css": "button[role=\"radio\"]",
+        "text": "360p"
+      },
+      "720p": {
+        "css": "button[role=\"radio\"]",
+        "text": "720p"
+      }
+    },
+    "modelButton": {
+      "css": "button[aria-label=\"Select model family\"]"
     }
   }
 }
