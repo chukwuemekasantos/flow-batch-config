@@ -1,5 +1,5 @@
 {
-  "version": "12",
+  "version": "13",
   "locale": "en",
   "selectors": {
     "promptInput": {
@@ -177,6 +177,9 @@
       "css": "button[role=\"radio\"]",
       "text": "Ingredients",
       "icon": "chrome_extension"
+    },
+    "modelOption": {
+      "css": "[role=\"option\"], [role=\"menuitem\"], [role=\"menuitemradio\"]"
     }
   }
 }
